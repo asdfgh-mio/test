@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <title>QADEER-AI | REALTIME VAULT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="site-wrapper">
+        <header class="main-header">
+            <div class="brand-section">
+                <span class="logo-text">QADEER<span class="logo-accent">-AI</span></span>
+                <span class="version-badge">REALTIME V6</span>
+            </div>
+            
+            <form id="vault-search-form" class="search-container">
+                <input type="text" id="vault-search-input" placeholder="Search premium items..." required>
+                <button type="submit" class="search-btn">SEARCH</button>
+            </form>
+        </header>
+
+        <div id="loader" class="loader" style="display:none;">
+            <div class="spinner"></div>
+            <span id="loader-text">🔍 API Fetching Data...</span>
+        </div>
+
+        <main class="feed-container">
+            <h2 id="section-title" class="section-title">🎬 Featured Vault Items</h2>
+            <div id="vault-grid" class="vault-grid">
+                <!-- Single Video Card -->
+            </div>
+        </main>
+
+        <footer class="main-footer">
+            <p>© 2026 QADEER-AI. Developed by Qadeer Khan & XT-Abbas.</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
